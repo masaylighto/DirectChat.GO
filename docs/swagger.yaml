@@ -1,0 +1,10 @@
+info:
+  contact: {}
+paths:
+  /healthy:
+    get:
+      responses:
+        "200":
+          description: OK
+      summary: Check if application is healthy
+swagger: "2.0"
