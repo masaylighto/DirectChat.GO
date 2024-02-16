@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: api-image:latest
+    container_name: api-container
+    ports:
+      - "8080:8080"
+    restart: always
